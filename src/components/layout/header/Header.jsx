@@ -3,8 +3,6 @@ import "./Header.styles.css";
 import { UilMoon } from "@iconscout/react-unicons";
 import { ColorThemeContext } from "../../../context/ColorTheme.context";
 import { UilSun } from "@iconscout/react-unicons";
-// import BgImage from "../../../png/Vector.png";
-// import BgImageLight from "../../../png/Vector-one.png";
 import { UilBars } from "@iconscout/react-unicons";
 import { UilMultiply } from "@iconscout/react-unicons";
 

@@ -59,7 +59,7 @@ function Projects() {
             <ProjectElement
               to="https://realest-live.herokuapp.com/"
               link="https://i.imgur.com/HeQGEVV.png"
-              linkActive="http://i.prntscr.com/Y5c7p77CTJCiPPrEx826zw.png"
+              linkActive="https://images.ctfassets.net/02vwvgr6spsr/4YF4f39bxvvSX2tfg4G9Wq/5a8bca50b743752a16398ab5810eefed/Zoopla_Homepage_Hero_Image.jpeg"
               position="1"
               description="Real Estate Platform - portofolio Project"
               title="Realest"
