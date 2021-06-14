@@ -46,7 +46,7 @@
   }
 }
 
-@media only screen and (max-height: 760px) {
+@media only screen and (max-height: 760px) and (max-width: 900px) {
   .hero-image-container {
     display: flex;
     height: 300px;
@@ -54,7 +54,7 @@
   }
 }
 
-@media only screen and (max-height: 670px) {
+@media only screen and (max-height: 670px) and (max-width: 900px) {
   .hero-image-container {
     display: flex;
     height: 220px;
@@ -62,10 +62,10 @@
   }
 }
 
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 600px) and (max-width: 900px) {
 }
 
-@media only screen and (max-height: 580px) {
+@media only screen and (max-height: 580px) and (max-width: 900px) {
   .hero-image-container {
     display: flex;
     height: 180px;
@@ -73,7 +73,7 @@
   }
 }
 
-@media only screen and (max-height: 560px) {
+@media only screen and (max-height: 560px) and (max-width: 900px) {
   .hero-mobile-image {
     display: none;
   }

@@ -70,4 +70,13 @@
   .contact-text {
     margin-top: var(--mb-2);
   }
+
+  .contact-text {
+    font-size: var(--h6-size);
+  }
+
+  .contact-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }

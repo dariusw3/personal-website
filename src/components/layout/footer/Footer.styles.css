@@ -20,3 +20,16 @@
   align-items: start;
   margin-bottom: var(--mb-3);
 }
+
+@media only screen and (max-width: 600px) {
+  .footer-wrapper {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .footer-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}

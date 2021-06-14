@@ -4,7 +4,6 @@ import "./Hero.styles.css";
 import HeroGraphic from "./HeroGraphic";
 import MouseAnimation from "../../mouse/MouseAnination";
 import Links from "../../links/Links";
-import { ReactComponent as Vector } from "../../../png/Vector.svg";
 
 function Hero() {
   return (

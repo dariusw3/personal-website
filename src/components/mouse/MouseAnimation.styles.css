@@ -59,3 +59,21 @@
     display: none;
   }
 }
+
+@media only screen and (max-height: 850px) {
+  .mouse-container {
+    transform: translateY(-20vh);
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .mouse-container {
+    transform: translateY(-30vh);
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .mouse-container {
+    transform: translateY(-40vh);
+  }
+}

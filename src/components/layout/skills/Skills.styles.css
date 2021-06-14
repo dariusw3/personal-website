@@ -23,7 +23,6 @@
 
 .skills-list-item:hover {
   transform: translateY(-10px);
-  scale: 5;
 }
 
 .skills-title-wrapper {
