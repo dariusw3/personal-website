@@ -1,0 +1,22 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: var(--mb-9);
+  padding-bottom: var(--mb-9);
+  border-top: solid 1px var(--complementary-color-two);
+  padding-top: var(--mb-6);
+}
+
+.footer-logo {
+  font-size: var(--h5-size);
+  font-weight: var(--font-semi-bold);
+  font-family: "Syne", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  align-items: start;
+  margin-bottom: var(--mb-3);
+}

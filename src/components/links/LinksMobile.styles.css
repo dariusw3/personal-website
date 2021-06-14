@@ -1,0 +1,13 @@
+.links-link-mobile {
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.links-wrapper-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
