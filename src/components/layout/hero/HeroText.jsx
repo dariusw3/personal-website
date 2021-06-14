@@ -9,17 +9,19 @@ function HeroText() {
 
   return (
     <div className="hero-text-container">
-      {colorTheme === "light" ? (
-        <img
-          className="hero-mobile-image"
-          src="https://i.imgur.com/vReQ2i9.png"
-        ></img>
-      ) : (
-        <img
-          className="hero-mobile-image"
-          src="https://i.imgur.com/YbC1ptj.png"
-        ></img>
-      )}
+      <div className="hero-image-container">
+        {colorTheme === "light" ? (
+          <img
+            className="hero-mobile-image"
+            src="https://i.imgur.com/vReQ2i9.png"
+          ></img>
+        ) : (
+          <img
+            className="hero-mobile-image"
+            src="https://i.imgur.com/YbC1ptj.png"
+          ></img>
+        )}
+      </div>
       <div className="hero-links-mobile">
         <LinksMobile />
       </div>

@@ -29,26 +29,24 @@
 
 @media only screen and (max-height: 760px) {
   .hero-mobile-image {
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
   }
 }
 
 @media only screen and (max-height: 670px) {
   .hero-mobile-image {
-    padding: 5vh;
+    display: none;
   }
 }
 
 @media only screen and (max-height: 600px) {
   .hero-mobile-image {
-    padding: 10vh;
   }
 }
 
 @media only screen and (max-height: 580px) {
   .hero-mobile-image {
     padding-bottom: 2vh;
-    padding-left: 5vh;
   }
 }
 

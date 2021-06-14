@@ -40,7 +40,7 @@ function About() {
 
   return (
     <div id="about" className="about-container">
-      <div className="about-wrapper">
+      <div ref={sectionRef} className="about-wrapper">
         <div className="skills-title-wrapper">
           <h2 className="skills-title">About me</h2>
           <h4 className="about-main">
@@ -64,7 +64,7 @@ function About() {
             help further my knowledge and sharpen my skills
           </h6>
         </div>
-        <div ref={sectionRef}></div>
+        <div></div>
       </div>
     </div>
   );

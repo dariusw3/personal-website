@@ -82,11 +82,17 @@ function Contact() {
               style={{ height: "33px", width: "33px", color: "#e56b6f" }}
             />
           </a>
-          <div className="contact-link">
+          <a
+            href="https://www.facebook.com/darius.giurgiu.3/"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-link"
+            className="contact-link"
+          >
             <UilFacebookF
               style={{ height: "33px", width: "33px", color: "#e56b6f" }}
             />
-          </div>
+          </a>
         </div>
       </div>
     </div>
