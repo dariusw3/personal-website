@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import "./HeroText.styles.css";
+import { ReactComponent as MobileImageLight } from "../../../svg/MobileImageLight.svg";
+import { ReactComponent as MobileImageDark } from "../../../svg/MobileImageDark.svg";
 
 import { ColorThemeContext } from "../../../context/ColorTheme.context";
 import LinksMobile from "../../links/LinksMobile";
@@ -10,17 +12,7 @@ function HeroText() {
   return (
     <div className="hero-text-container">
       <div className="hero-image-container">
-        {colorTheme === "light" ? (
-          <img
-            className="hero-mobile-image"
-            src="https://i.imgur.com/vReQ2i9.png"
-          ></img>
-        ) : (
-          <img
-            className="hero-mobile-image"
-            src="https://i.imgur.com/YbC1ptj.png"
-          ></img>
-        )}
+        {colorTheme === "light" ? <MobileImageLight /> : <MobileImageDark />}
       </div>
       <div className="hero-links-mobile">
         <LinksMobile />
